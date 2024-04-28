@@ -31,13 +31,19 @@ highest_grade = max(grades)
 total_of_grades= sum(grades)
 average_grade = total_of_grades/ len(grades)
 
-print("--------------Results--------------")
+print("--------------Results--------------")
 
-print(f"Lowest Grade:    {lowest_grade:.1f}")
-print(f"Highest Grade:   {highest_grade:.1f}")
-print(f"Sum of Grades:   {total_of_grades:.1f}")
-print(f"Average:         {average_grade:.2f}")
-#Display the results with proper formatting and correct allignment where the outputs look like an even column
+
+print(f"Lowest Grade:    {lowest_grade:.1f}")
+
+print(f"Highest Grade:   {highest_grade:.1f}")
+
+print(f"Sum of Grades:   {total_of_grades:.1f}")
+
+print(f"Average:         {average_grade:.2f}")
+
+#Display the results with proper formatting and correct allignment where the outputs look like an even column
+
 
 print("-----------------------------------")
 
